@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,300&display=swap');
+
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    background-color: silver;
+    margin: 0;
+}
+
+.pwhome {
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+}
+
+.pwhome img{
+    height: 50vh;
+    width: 100vh;
+    color: violet;
+}
+
+.pwhome .knapper {
+    background-color: white;
+    color: grey;
+    border: 2px solid grey;
+    padding: 2vh 6.5vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 3vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    
+}
+a:hover, a:active{
+    background-color: teal;
+    color: white;
+}
+
+
+
+.Pwhome {
+    text-align: center;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+    padding-bottom: 10%;
+}
+
+.Pwhome p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.Pwhome .NextKnap {
+    background-color: white;
+    color: teal;
+    border: 2px solid grey;
+    padding: 2vh 6vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 2vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    
+}
+
