@@ -16,13 +16,13 @@ body{
     padding: 5%;
 }
 
-.pwhome img{
+.Pwhome img{
     height: 50vh;
     width: 100vh;
     color: violet;
 }
 
-.pwhome .knapper {
+.Pwhome .knapper {
     background-color: white;
     color: grey;
     border: 2px solid grey;
