@@ -16,7 +16,7 @@ for (var i = 0; i < x.length; i++) {
             console.log(point)
          };
          document.getElementById("pws"+Pws).style.display="none"
-         document.getElementById("hw"+Hw).style.display="block"
+         document.getElementById("HW"+Hw).style.display="block"
 
 
     })
