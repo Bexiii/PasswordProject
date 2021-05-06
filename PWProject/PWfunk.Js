@@ -15,14 +15,24 @@ for (var i = 0; i < x.length; i++) {
             point+=1
             console.log(point)
          };
-         document.getElementById("pws"+Pws).style.display="none"
-         document.getElementById("HW"+Hw).style.display="block"
-
+            document.getElementById("pws"+Pws).style.display="none"
+             document.getElementById("HW"+Hw).style.display="block"
+             HW++;
+             pws++;
 
     })
 
-
 }
+
+
+/*let X = document.getElementsByClass("NextKnap")
+addEventListener("click")
+document.getElementsByClassName("Pws"+Pws).style.display="none"
+document.getElementsByClassName("HW"+Hw).style.display="block"
+
+
+
+
 
 
 /* blå = var orange = string /*
