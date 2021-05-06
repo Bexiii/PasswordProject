@@ -4,7 +4,7 @@ let point=0;
 let Pws=1;
 
 let x = document.getElementsByClassName("knapper")//[x] 
-console.log(x)
+let z = document.getElementsByClassName("NextKnap")
 
 for (var i = 0; i < x.length; i++) {
     console.log("et eller andet")
@@ -17,12 +17,32 @@ for (var i = 0; i < x.length; i++) {
          };
             document.getElementById("pws"+Pws).style.display="None"
              document.getElementById("HW"+Hw).style.display="Block"
-       
+             Hw++;
+             Pws++;
 
     })
 
 }
+for (var l =0; l <z.length; l++) {
+    console.log("glad")
+    z[l].addEventListener("click",function(){
+        document.getElementById("pws"+Pws).style.display="block"
+        document.getElementById("HW"+Hw-1).style.display="block"
 
+
+
+    })
+
+
+
+}
+
+
+
+/*document.getElementById("pws"+Pw).style.display = "block";
+document.getElementById("hw"+Hw).style.display = "block";
+Hw++;
+Pw++;
 
 /*let X = document.getElementsByClass("NextKnap")
 addEventListener("click")
