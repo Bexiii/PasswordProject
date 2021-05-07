@@ -17,7 +17,6 @@ for (var i = 0; i < x.length; i++) {
          };
             document.getElementById("pws"+Pws).style.display="None"
              document.getElementById("HW"+Hw).style.display="Block"
-             Hw++;
              Pws++;
 
     })
@@ -27,9 +26,9 @@ for (var l =0; l <z.length; l++) {
     console.log("glad")
     z[l].addEventListener("click",function(){
         document.getElementById("pws"+Pws).style.display="block"
-        document.getElementById("HW"+Hw-1).style.display="block"
-
-
+        document.getElementById("HW"+Hw).style.display="none"
+        hw++;
+        
 
     })
 
