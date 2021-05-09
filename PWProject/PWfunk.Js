@@ -15,8 +15,8 @@ for (var i = 0; i < x.length; i++) {
             point+=1
             console.log(point)
          };
-            document.getElementById("pws"+Pws).style.display="None"
-             document.getElementById("hw"+Hw).style.display="block"
+            document.getElementById("pws"+Pws).style.display="Block"
+             document.getElementById("Hw"+HW).style.display="None"
              Pws++;
 
     })
@@ -26,8 +26,8 @@ for (var l =0; l <z.length; l++) {
     console.log("HappyBex")
     z[l].addEventListener("click",function(){
         document.getElementById("pws"+Pws).style.display="block"
-        document.getElementById("HW"+Hw).style.display="none"
-        Hw++;
+        document.getElementById("Hw"+HW).style.display="none"
+        HW++;
         concole.log(HW+Hw)
 
 
