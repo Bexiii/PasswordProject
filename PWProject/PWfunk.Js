@@ -25,9 +25,9 @@ for (var i = 0; i < x.length; i++) {
 for (var l =0; l <z.length; l++) {
     console.log("HappyBex")
     z[l].addEventListener("click",function(){
-            document.getElementById("pws"+Pws).style.display="block";
+            document.getElementById("pws"+Pws).style.display="Block";
             document.getElementById("Hw"+HW).style.display="none";
-            Hw++;
+            HW++;
         
 
 
