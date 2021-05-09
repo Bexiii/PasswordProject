@@ -5,6 +5,7 @@ let Pws=1;
 
 let x = document.getElementsByClassName("knapper")//[x] 
 let z = document.getElementsByClassName("NextKnap")
+let y = Document.getElementsByClassName("knap")
 
 for (var i = 0; i < x.length; i++) {
     console.log("SadBex")
@@ -30,14 +31,17 @@ for (var l =0; l <z.length; l++) {
             Hw++;
         
 
-
-
     });
 
-
-
 };
+/*
+for(var m =0; m <y.length; m++) {
+    y[m].addEventListener("click", function(){ if(point > 8){}
 
+
+        }); 
+
+}
 
 
 
