@@ -9,12 +9,14 @@ body{
     margin: 0;
 }
 
-.pwhome {
+.Pwhome {
     background-color: white;
     margin-left: 10%;
     margin-right: 10%;
     padding: 5%;
 }
+
+.Pwhome:not(:first-child) {display: none;}
 
 .Pwhome img{
     height: 50vh;
@@ -23,7 +25,7 @@ body{
 }
 
 .Pwhome .knapper {
-    background-color: rgb(90, 8, 8);
+    background-color: rgb(144, 102, 102);
     color: rgb(255, 255, 255);
     border: 2px solid grey;
     padding: 2vh 6.5vh;
@@ -58,6 +60,21 @@ a:hover, a:active{
 }
 
 .Pwhome .NextKnap {
+    background-color: white;
+    color: teal;
+    border: 2px solid grey;
+    padding: 2vh 6vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 2vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    
+}
+
+.Pwhome .knap {
     background-color: white;
     color: teal;
     border: 2px solid grey;

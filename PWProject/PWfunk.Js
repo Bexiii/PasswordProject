@@ -7,7 +7,7 @@ let x = document.getElementsByClassName("knapper")//[x]
 let z = document.getElementsByClassName("NextKnap")
 
 for (var i = 0; i < x.length; i++) {
-    console.log("et eller andet")
+    console.log("SadBex")
     x[i].addEventListener("click",function(){
 
     console.log(this.dataset.index)
@@ -16,25 +16,30 @@ for (var i = 0; i < x.length; i++) {
             console.log(point)
          };
             document.getElementById("pws"+Pws).style.display="None"
-             document.getElementById("HW"+Hw).style.display="Block"
+             document.getElementById("hw"+Hw).style.display="block"
              Pws++;
 
     })
 
 }
 for (var l =0; l <z.length; l++) {
-    console.log("glad")
+    console.log("HappyBex")
     z[l].addEventListener("click",function(){
         document.getElementById("pws"+Pws).style.display="block"
         document.getElementById("HW"+Hw).style.display="none"
-        hw++;
-        
-
-    })
+        Hw++;
+        concole.log(HW+Hw)
 
 
 
-}
+    });
+
+
+
+};
+
+
+
 
 
 
