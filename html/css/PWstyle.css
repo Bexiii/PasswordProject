@@ -5,7 +5,7 @@
 body{
     font-family: 'Work Sans', sans-serif;
     text-align: center;
-    background-color: silver;
+    background-color: rgb(16, 34, 59);
     margin: 0;
 }
 
@@ -21,15 +21,15 @@ body{
 }
 
 .Pwhome img{
-    height: 50vh;
-    width: 100vh;
+    height: 60vh;
+    width: 60vh;
     color: violet;
 }
 
 .Pwhome .knapper {
-    background-color: rgb(144, 102, 102);
+    background-color: rgb(49, 85, 135);
     color: rgb(255, 255, 255);
-    border: 2px solid grey;
+    border: 2px solid rgb(49, 85, 135);
     padding: 2vh 6.5vh;
     text-align: center;
     text-decoration: none;
@@ -42,7 +42,7 @@ body{
 }
 a:hover, a:active{
     background-color: teal;
-    color: white;
+    color: rgb(25, 25, 27);
 }
 
 
@@ -63,8 +63,8 @@ a:hover, a:active{
 
 .Pwhome .NextKnap {
     background-color: white;
-    color: teal;
-    border: 2px solid grey;
+    color: rgb(49, 85, 135);
+    border: 2px solid rgb(49, 85, 135);
     padding: 2vh 6vh;
     text-align: center;
     text-decoration: none;
